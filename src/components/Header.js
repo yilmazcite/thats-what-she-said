@@ -5,7 +5,7 @@ const Header = () => {
   const gif = "https://y.yarn.co/252d7b5b-ed76-4963-b717-3ad88cc0067b_text.gif";
   return (
     <header className="header-container">
-      <h1>That's what she said. I mean, for real...</h1>
+      <h1>Once Nursima Said</h1>
       <span>
         <img
           className="header-gif"
