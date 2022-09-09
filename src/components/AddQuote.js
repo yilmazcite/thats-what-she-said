@@ -31,7 +31,7 @@ const AddQuote = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (quote.trim().length !== 0 && quote.trim().length < 76) {
+    if (quote.trim().length !== 0 && quote.trim().length < 100) {
       transferQuote(quote);
     }
 
