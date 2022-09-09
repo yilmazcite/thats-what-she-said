@@ -5,7 +5,7 @@ import "../styles/RandomQuote.css";
 
 const TweetQuote = () => {
   const randomTweet = useSelector((state) => state.randomQuote.randomQuote);
-  const extraTweetText = `Random Nursima quote of the day: "${randomTweet}"`;
+  const extraTweetText = `Nursima once said: "${randomTweet}"`;
   const formTweetLink = `https://twitter.com/intent/tweet?url= ${encodeURIComponent(
     extraTweetText
   )}`;
