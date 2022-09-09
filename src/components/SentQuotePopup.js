@@ -14,8 +14,8 @@ const SentQuotePopup = () => {
   const quoteReqText =
     checkQuoteValidity.length === 0
       ? "Quote can't be empty."
-      : checkQuoteValidity.length > 50
-      ? "Quote can't be longer than 50 characters."
+      : checkQuoteValidity.length > 100
+      ? "Quote can't be longer than 100 characters."
       : "Your quote request has successfully been received!";
 
   const clickHandler = () => {
