@@ -1,3 +1,8 @@
+# That's What She Said
+
+This is just a web app made for some friends just for fun with a deployment used by them. <br/>
+I also got to practice Redux and Redux Toolkit.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
